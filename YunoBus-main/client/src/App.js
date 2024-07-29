@@ -9,7 +9,7 @@ import PublicRoute from './components/PublicRoute';
 import ProtectedRoute from './components/ProtectedRoute';
 import Loader from './components/Loader';
 import { useSelector } from 'react-redux';
-import AdminHome from "./pages/Admin/AdminHome";
+// import AdminHome from "./pages/Admin/AdminHome";
 import AdminBuses from "./pages/Admin/AdminBuses";
 import AdminUsers from "./pages/Admin/AdminUsers";
 import BookNow from './pages/BookNow';

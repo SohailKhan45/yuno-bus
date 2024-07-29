@@ -1,6 +1,7 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { message, Row, Col } from 'antd';
 import React, { useEffect, useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import Bus from '../components/Bus';
 import { HideLoading, ShowLoading } from '../redux/alertsSlice';
 import axios from 'axios';
@@ -42,7 +43,6 @@ function Home() {
       message.error(error.message);
     }
   };
-
   useEffect(() => {
     getBuses();
   }, []);

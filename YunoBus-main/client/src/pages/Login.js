@@ -3,7 +3,7 @@ import { Form } from 'antd';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { message } from 'antd';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { HideLoading, ShowLoading } from '../redux/alertsSlice';
 import '../resources/auth.css';
 import { SetUser } from '../redux/usersSlice';
