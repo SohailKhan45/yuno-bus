@@ -7,7 +7,7 @@ const path = require('path');
 const cors = require('cors')
 const bodyParser = require('body-parser')
 
-const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3000'
+const FRONTEND_URL = process.env.FRONTEND_URL
 
 app.use(cors({
     origin: FRONTEND_URL,
